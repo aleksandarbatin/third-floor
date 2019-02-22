@@ -1,14 +1,41 @@
 body {
-	background-color: #e6e6ff;
-	max-width: 800px;
-	margin-left: auto;
+	width: 1360px;
+	background-color: #1a1a1a;
 	margin-right: auto;
+	margin-left: auto;
+	}
+
+h1 {
+	font-family: Cambria;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  font-family: Cambria;
+  font-size: 30px;
 }
 
-.jedan {
-	color: #3939ac;
-	background-color: #e6ccff;
-	text-align: center;
-	font-family: Tahoma;
+li {
+  float: center;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
 
