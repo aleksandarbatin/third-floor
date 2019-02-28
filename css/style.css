@@ -1,6 +1,5 @@
 body {
 	width: 1360px;
-	background-color: #1a1a1a;
 	margin-right: auto;
 	margin-left: auto;
 	}
@@ -9,21 +8,23 @@ h1 {
 	font-family: Cambria;
 	text-align: center;
 	font-size: 50px;
-	color: white;
-}
+	color: orange;
+	}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #1a1a1a;
   font-family: Cambria;
   font-size: 30px;
-}
+  max-width: 700px;
+  margin-left: 330px;
+	}
 
 li {
   float: center;
-}
+	}
 
 li a {
   display: block;
@@ -31,11 +32,52 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
-}
+	}
 
 li a:hover {
-  background-color: #111111;
-}
+  background-color: #333333;
+	}
 
+#prva {
+	color: white;
+	font-family: Cambria;
+	font-size: 20px;
+	position: absolute;
+	left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: transparent;
+
+	}
+#treca {
+	color: orange;
+	font-family: Cambria;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 600px;
+	background-color: transparent;
+	}
+
+#druga {
+	color: white;
+	font-family: Cambria;
+	font-size: 20px;
+	position: absolute;
+	left: 950px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: transparent;
+	}
+
+	
+
+span {
+	color: orange;
+	}
+
+.jedan {
+	background-color: black;
+}
 
 
